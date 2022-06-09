@@ -955,6 +955,10 @@ form .status i {
   padding: 2.1875rem 2.8125rem;
 }
 
+.modal-dialog .modal-content .modal-body-name {
+  padding: 1;
+}
+
 /* -- Page Wrapper */
 
 .page-wrapper {
