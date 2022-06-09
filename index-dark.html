@@ -62,10 +62,10 @@
               <div class="input-group">
                 <input type="text" class="form-control" name="email" placeholder="sam">
                 <span class="input-group-btn">
-                  <button class="btn" type="submit"><i class="arrow_right"></i></button>
+                  <a href="" data-toggle="modal" data-target="#name-search"><button class="btn" type="submit"><i class="arrow_right"></i></button></a>
                 </span>
               </div>
-              <!-- <p class="note">*Only relevant information, no spam</p> -->
+                <p class="note" style="padding-top: 10px; color: #fafafa !important;">Names must be 1-20 characters. Dashes and underscores are permitted, <br>but cannot be trailing characters and cannot be used in single character domains.</p>
             </form>
             <!--end form-->
           </div>
@@ -147,7 +147,45 @@
 </div>
 <!--end #wallet-->
 
+<!-- Name Search -->
+<div class="modal fade" id="name-search" tabindex="-1" role="dialog" aria-labelledby="name-search-label">
+  <div class="modal-dialog" role="document">
+    <div class="container">
+      <div class="modal-content" data-background-color="RGBA(244, 247, 249, 1.00)">
+        <div class="modal-header" data-background-color="RGBA(244, 247, 249, 1.00)">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h2 class="modal-title center" style="color: RGBA(18, 18, 18, 1.00);" id="name-search-label" >It's available!</h2>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <!-- <img src="assets/img/white-coin.gif" class="work image-popup center" width="200" alt="" style=" align-content: center !important;"> -->
 
+              <h3 class="center" style="color: RGBA(18, 18, 18, 1.00);">Burn 100 AR.IO to secure this domain.</h3>
+
+
+            <!--end work-->
+          </div>
+
+
+
+
+
+
+
+        <!--end col-md-4-->
+      </div>
+      <!--end row-->
+    </div>
+    <!--end modal-body-->
+  </div>
+  <!--end modal-content-->
+</div>
+<!--end container-->
+</div>
+<!--end modal-dialog-->
+</div>
+<!--end #Name search-->
 
 
 <script  src="assets/js/jquery-2.2.1.min.js"></script>
