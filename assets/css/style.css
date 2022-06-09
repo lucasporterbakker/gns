@@ -359,6 +359,12 @@ B. Helpers
     font-size: 4.5rem;
 }
 
+@media only screen and (max-width: 600px) {
+  .font-size-90 {
+      font-size: 2.5rem;
+  }
+}
+
 .font-size-100 {
     font-size: 6.25rem;
 }
@@ -385,6 +391,13 @@ B. Helpers
 
 .opacity-60 {
     opacity: .6;
+}
+
+@media only screen and (max-width: 600px) {
+  .opacity-60 {
+      opacity: .6;
+      font-size: 1rem !important;
+  }
 }
 
 .opacity-50 {
